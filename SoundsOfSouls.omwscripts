@@ -1,0 +1,7 @@
+MENU: scripts/SoundsOfSouls/utils/multiInput.lua
+MENU: scripts/SoundsOfSouls/utils/textSet.lua
+
+MENU: scripts/SoundsOfSouls/settingsMenu.lua
+GLOBAL: scripts/SoundsOfSouls/settingsGlobal.lua
+
+GLOBAL: scripts/SoundsOfSouls/global.lua

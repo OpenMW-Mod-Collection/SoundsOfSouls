@@ -1,0 +1,28 @@
+page_name: Sounds of Souls
+page_desc: Makes filled soulgems scream in agony.
+
+settings_groupName: Settings
+cellCheckInterval_name: Cell Change Check Interval
+cellCheckInterval_desc: How often the mod checks if you moved to a different cell.
+soundActivate_name: Picking Up Soulgems
+soundInventory_name: Soulgems in Player's Inventory
+soundCell_name: Soulgems in the Cell
+chance: Sound Chance (%)
+timerMin: Timer Min (sec)
+timerMax: Timer Max (sec)
+volume_name: Volume
+volume_desc: |
+  Soul sound volume is based on the soul size:
+
+  clamp(Soul Size * SCALER, MIN, MAX)
+scaler: Scaler
+min: Min Volume
+max: Max Volume
+suffixes_name: Sound Record Suffixes
+suffixes_desc: >
+  Since SNDG records aren't exposed to the API yet, sounds are guessed as "<creature name> moan/roar/scream".
+resolveInventories_name: Resolve Inventories
+resolveInventories_desc: |
+  If disabled, containers/actors whose loot hasn't been generated yet, won't play any soul sounds.
+
+  If enabled, their loot will get generated and will work as usual. Enable at your own risk.
